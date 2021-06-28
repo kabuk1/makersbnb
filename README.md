@@ -8,7 +8,7 @@
 * Give and receive meaningful code review
 
 ## Set up
-Clone this repo and then run the command below:
+Clone this repo and then run the commands below:
 
 ```bash
 $ bundle install
