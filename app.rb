@@ -5,7 +5,7 @@ require './lib/property'
 
 class MakersBnb < Sinatra::Base
   configure :development do
-    register Sinatra::Reloader 
+    register Sinatra::Reloader
   end
 
   register Sinatra::Flash
@@ -18,6 +18,15 @@ class MakersBnb < Sinatra::Base
     @properties = Property.all
     erb:'properties/index'
   end
-  
+
+  get '/properties/new' do
+    erb:"/properties/new"
+  end
+
+  post '/properties' do
+    Property.create(name: params[:name])
+    redirect '/properties'
+  end
+
   run! if app_file == $0
 end

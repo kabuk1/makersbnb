@@ -10,4 +10,13 @@ describe Property do
       expect(properties).to include("Oceanside")
     end
   end
+
+  describe '.create' do
+    it 'creates the property listing' do
+      Property.create(name: 'Hillside')
+
+      expect(Property.all).to include("Hillside")
+    end
+  end
+
 end

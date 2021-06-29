@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/leslie/makersacademy/makersbnb/app.rb": {
+      "/Users/ryanchidwick/Desktop/makersbnb/app.rb": {
         "lines": [
           1,
           1,
@@ -20,6 +20,15 @@
           null,
           null,
           1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
           1,
           1,
           null,
@@ -28,20 +37,40 @@
           null
         ]
       },
-      "/Users/leslie/makersacademy/makersbnb/lib/property.rb": {
+      "/Users/ryanchidwick/Desktop/makersbnb/lib/property.rb": {
         "lines": [
           1,
           null,
           1,
+          1,
+          4,
+          4,
+          21,
+          null,
           1,
           2,
           2,
-          8,
+          null,
+          0,
+          null,
+          2,
           null,
           null
         ]
       },
-      "/Users/leslie/makersacademy/makersbnb/spec/features/view_properties_spec.rb": {
+      "/Users/ryanchidwick/Desktop/makersbnb/spec/features/create_property_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/ryanchidwick/Desktop/makersbnb/spec/features/view_properties_spec.rb": {
         "lines": [
           1,
           1,
@@ -54,7 +83,7 @@
           null
         ]
       },
-      "/Users/leslie/makersacademy/makersbnb/spec/property_spec.rb": {
+      "/Users/ryanchidwick/Desktop/makersbnb/spec/property_spec.rb": {
         "lines": [
           1,
           null,
@@ -66,12 +95,21 @@
           1,
           1,
           1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1624975804
+    "timestamp": 1624979073
   }
 }
