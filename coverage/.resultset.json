@@ -6,6 +6,7 @@
           1,
           1,
           1,
+          1,
           null,
           1,
           1,
@@ -15,10 +16,62 @@
           1,
           null,
           1,
+          0,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/makersbnb/lib/property.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          8,
+          null,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/makersbnb/spec/features/view_properties_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/makersbnb/spec/property_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1624968950
+    "timestamp": 1624975804
   }
 }
