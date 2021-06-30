@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/app.rb": {
+      "/Users/leslie/makersacademy/makersbnb/app.rb": {
         "lines": [
           1,
           1,
@@ -37,7 +37,7 @@
           null
         ]
       },
-      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/lib/property.rb": {
+      "/Users/leslie/makersacademy/makersbnb/lib/property.rb": {
         "lines": [
           1,
           null,
@@ -79,7 +79,7 @@
           null
         ]
       },
-      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/features/create_property_spec.rb": {
+      "/Users/leslie/makersacademy/makersbnb/spec/features/create_property_spec.rb": {
         "lines": [
           1,
           1,
@@ -94,12 +94,14 @@
           null
         ]
       },
-      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/features/view_properties_spec.rb": {
+      "/Users/leslie/makersacademy/makersbnb/spec/features/view_properties_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
+          1,
+          null,
           1,
           1,
           1,
@@ -114,7 +116,7 @@
           null
         ]
       },
-      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/property_spec.rb": {
+      "/Users/leslie/makersacademy/makersbnb/spec/property_spec.rb": {
         "lines": [
           1,
           1,
@@ -157,7 +159,7 @@
           null
         ]
       },
-      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/database_helpers.rb": {
+      "/Users/leslie/makersacademy/makersbnb/spec/database_helpers.rb": {
         "lines": [
           1,
           null,
@@ -168,6 +170,6 @@
         ]
       }
     },
-    "timestamp": 1625051733
+    "timestamp": 1625063015
   }
 }
