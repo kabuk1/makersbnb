@@ -4,6 +4,7 @@ require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
 require 'features/web_helpers'
+require 'setup_test_database'
 
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
@@ -18,11 +19,11 @@ require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
 Capybara.app = MakersBnb
 
-# RSpec.configure do |config|
-#   config.before(:each) do
-#     setup_test_database
-#   end
-# end
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
 
 # Do not remove - from original file
 RSpec.configure do |config|

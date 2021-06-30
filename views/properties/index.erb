@@ -1,5 +1,10 @@
 <ul>
   <% @properties.each do |property| %>
-    <li><%= property %></li>
+    <li><%= property.name %></li>
+    <ul>
+      <li><%= property.description %></li>
+      <li><%= property.location %></li>
+      <li><%= property.price %></li>
+    </ul>
   <% end %>
 </ul>
