@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ryanchidwick/Desktop/makersbnb/app.rb": {
+      "/Users/alexandrachorbe/makers/makersbnb/app.rb": {
         "lines": [
           1,
           1,
@@ -15,8 +15,6 @@
           0,
           null,
           1,
-          null,
-          null,
           1,
           null,
           1,
@@ -24,9 +22,23 @@
           null,
           null,
           1,
-          2,
-          2,
-          2,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
           null,
           null,
           1,
@@ -37,31 +49,31 @@
           null
         ]
       },
-      "/Users/ryanchidwick/Desktop/makersbnb/lib/user.rb": {
+      "/Users/alexandrachorbe/makers/makersbnb/lib/user.rb": {
         "lines": [
           1,
           1,
           null,
           1,
           1,
+          null,
           1,
           6,
           6,
           null,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
+          2,
           null,
           null,
           1,
-          5,
+          4,
           null,
-          5,
-          5,
-          null,
+          4,
+          4,
           null,
           null,
           null,
@@ -69,7 +81,7 @@
           null
         ]
       },
-      "/Users/ryanchidwick/Desktop/makersbnb/lib/database_connection.rb": {
+      "/Users/alexandrachorbe/makers/makersbnb/lib/database_connection.rb": {
         "lines": [
           1,
           null,
@@ -88,7 +100,7 @@
           null
         ]
       },
-      "/Users/ryanchidwick/Desktop/makersbnb/database_connection_setup.rb": {
+      "/Users/alexandrachorbe/makers/makersbnb/database_connection_setup.rb": {
         "lines": [
           1,
           null,
@@ -99,7 +111,7 @@
           null
         ]
       },
-      "/Users/ryanchidwick/Desktop/makersbnb/spec/features/signing_in_spec.rb": {
+      "/Users/alexandrachorbe/makers/makersbnb/spec/features/signing_in_spec.rb": {
         "lines": [
           1,
           1,
@@ -114,7 +126,7 @@
           null
         ]
       },
-      "/Users/ryanchidwick/Desktop/makersbnb/spec/features/signing_up_spec.rb": {
+      "/Users/alexandrachorbe/makers/makersbnb/spec/features/signing_up_spec.rb": {
         "lines": [
           1,
           1,
@@ -127,13 +139,12 @@
           null
         ]
       },
-      "/Users/ryanchidwick/Desktop/makersbnb/spec/user_spec.rb": {
+      "/Users/alexandrachorbe/makers/makersbnb/spec/user_spec.rb": {
         "lines": [
           1,
           1,
           1,
           null,
-          null,
           1,
           1,
           1,
@@ -143,34 +154,22 @@
           1,
           null,
           1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           null,
           null
         ]
       },
-      "/Users/ryanchidwick/Desktop/makersbnb/spec/database_helpers.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/ryanchidwick/Desktop/makersbnb/spec/setup_test_database.rb": {
+      "/Users/alexandrachorbe/makers/makersbnb/spec/database_helpers.rb": {
         "lines": [
           1,
           null,
@@ -181,6 +180,6 @@
         ]
       }
     },
-    "timestamp": 1625066044
+    "timestamp": 1625079964
   }
 }

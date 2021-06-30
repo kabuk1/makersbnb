@@ -1,8 +1,9 @@
-require 'bcrypt'
-require_relative 'database_connection'
+require "bcrypt"
+require_relative "database_connection"
 
 class User
   attr_reader :id, :email
+
   def initialize(id:, email:)
     @id = id
     @email = email
@@ -24,5 +25,4 @@ class User
       email: result[0]["email"],
     )
   end
-
 end
