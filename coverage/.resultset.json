@@ -20,8 +20,8 @@
           null,
           null,
           1,
-          2,
-          2,
+          3,
+          3,
           null,
           null,
           1,
@@ -56,14 +56,14 @@
           null,
           null,
           1,
-          3,
-          3,
+          4,
+          4,
           null,
           0,
           null,
           null,
-          3,
-          3,
+          4,
+          4,
           7,
           null,
           null,
@@ -99,8 +99,23 @@
           1,
           1,
           1,
+          null,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/makersbnb/spec/features/nav_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -191,6 +206,6 @@
         ]
       }
     },
-    "timestamp": 1625065208
+    "timestamp": 1625094073
   }
 }

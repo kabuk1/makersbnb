@@ -7,7 +7,8 @@ feature 'Create property' do
       fill_in("price", with: 60)
       fill_in("from_date", with: "2021-01-10")
       fill_in("to_date", with: "2021-10-10")
-      click_button("submit")
+      click_button("Submit")
+    
     expect(page).to have_content "Hillside"
     expect(page).to have_content "Chalet with a mountain view"
     expect(page).to have_content "Hull"

@@ -11,7 +11,7 @@ class MakersBnb < Sinatra::Base
   register Sinatra::Flash
 
   get '/' do
-    'Makers BnB'
+    erb :index
   end
 
   get '/properties' do
