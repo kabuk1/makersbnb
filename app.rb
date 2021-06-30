@@ -7,7 +7,7 @@ require_relative 'database_connection_setup'
 class MakersBnb < Sinatra::Base
   configure :development do
     register Sinatra::Reloader
-    enable :sessions 
+    enable :sessions
   end
   attr_reader :user
 
@@ -27,6 +27,6 @@ class MakersBnb < Sinatra::Base
   post '/login' do
     erb :login
   end
-  
+
   run! if app_file == $0
 end

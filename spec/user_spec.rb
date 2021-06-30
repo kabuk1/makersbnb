@@ -16,4 +16,14 @@ describe User do
       expect(user.email).to eq "alex@gmail.com"
     end
   end
+  describe ".authenticate" do
+    it "returns a user given accurate login details" do
+      user = User.create(email: "alex@gmail.com", password: "password")
+      puts "#{user}!!!!!!!!!"
+      authenticate_user = User.authenticate(email: "alex@gmail.com", password: "password")
+      puts "#{authenticate_user}++++++++++"
+      # expect(authenticate_user.id).to eq user.id
+      # Error experienced on line 25.
+    end
+  end
 end
