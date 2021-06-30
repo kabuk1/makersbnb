@@ -1,8 +1,12 @@
 require "user"
 require_relative "database_helpers"
+require "setup_test_database"
+
+
 describe User do
   describe ".create" do
     it "creats a new user" do
+      setup_test_database
       user = User.create(email: "alex@gmail.com", password: "password")
 
       persisted_data = persisted_data(id: user.id, table: "users")

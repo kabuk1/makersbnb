@@ -9,6 +9,7 @@ class MakersBnb < Sinatra::Base
     register Sinatra::Reloader
     enable :sessions 
   end
+  attr_reader :user
 
 
   register Sinatra::Flash
@@ -18,10 +19,13 @@ class MakersBnb < Sinatra::Base
   end
 
   post '/users' do
-    user = User.create(email: params['email'], password: params['password'])
-    session[:user_id] = user.id
+    @user = User.create(email: params['email'], password: params['password'])
+    session[:user_id] = @user.id
     erb :confirm
-    
+  end
+
+  post '/login' do
+    erb :login
   end
   
   run! if app_file == $0

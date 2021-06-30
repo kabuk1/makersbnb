@@ -9,8 +9,7 @@ class DatabaseConnection
     @conn
   end
 
-  def self.query(sql, dbname)
-    @conn = PG.connect(dbname: dbname)
+  def self.query(sql)
     @conn.exec(sql)
   end
 end
