@@ -65,6 +65,12 @@
           null,
           null,
           1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          1,
           null
         ]
       },
@@ -177,6 +183,26 @@
           1,
           null,
           0,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/makersbnb/spec/features/booking_property_spec.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -357,6 +383,6 @@
         ]
       }
     },
-    "timestamp": 1625138726
+    "timestamp": 1625148221
   }
 }
