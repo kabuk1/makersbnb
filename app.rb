@@ -32,6 +32,7 @@ class MakersBnb < Sinatra::Base
   post '/properties' do
     Property.create(name: params[:name], description: params[:description], location: params[:location], price: params[:price], from_date: params[:from_date], to_date: params[:to_date])
     redirect '/properties'
+  end
 
   post "/users" do
     @user = User.create(email: params["email"], password: params["password"])

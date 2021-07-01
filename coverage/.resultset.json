@@ -1,24 +1,42 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alexandrachorbe/makers/makersbnb/app.rb": {
+      "/Users/leslie/makersacademy/makersbnb/app.rb": {
         "lines": [
           1,
           1,
           1,
           1,
           1,
+          1,
           null,
           1,
           1,
           0,
-          0,
+          null,
           null,
           1,
+          null,
+          1,
+          null,
           1,
           null,
           1,
           2,
+          null,
+          null,
+          1,
+          3,
+          3,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
           null,
           null,
           1,
@@ -50,7 +68,7 @@
           null
         ]
       },
-      "/Users/alexandrachorbe/makers/makersbnb/lib/user.rb": {
+      "/Users/leslie/makersacademy/makersbnb/lib/user.rb": {
         "lines": [
           1,
           1,
@@ -82,7 +100,7 @@
           null
         ]
       },
-      "/Users/alexandrachorbe/makers/makersbnb/lib/database_connection.rb": {
+      "/Users/leslie/makersacademy/makersbnb/lib/database_connection.rb": {
         "lines": [
           1,
           null,
@@ -101,81 +119,39 @@
           null
         ]
       },
-      "/Users/alexandrachorbe/makers/makersbnb/database_connection_setup.rb": {
+      "/Users/leslie/makersacademy/makersbnb/lib/property.rb": {
         "lines": [
           1,
           null,
           1,
+          null,
           1,
+          null,
+          1,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          null,
+          null,
+          1,
+          4,
+          4,
           null,
           0,
-          null
-        ]
-      },
-      "/Users/alexandrachorbe/makers/makersbnb/spec/features/signing_in_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/alexandrachorbe/makers/makersbnb/spec/features/signing_up_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/alexandrachorbe/makers/makersbnb/spec/user_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
           null,
           null,
-          1,
-          1,
-          1,
-          1,
-          1,
+          4,
+          4,
+          7,
           null,
           null,
           null,
-          null
-        ]
-      },
-      "/Users/alexandrachorbe/makers/makersbnb/spec/database_helpers.rb": {
-        "lines": [
-          1,
           null,
-          1,
-          1,
+          null,
           1,
           8,
           8,
@@ -190,6 +166,17 @@
           null,
           null,
           null,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/makersbnb/database_connection_setup.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          0,
           null
         ]
       },
@@ -222,6 +209,34 @@
           1,
           1,
           null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/makersbnb/spec/features/signing_in_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/makersbnb/spec/features/signing_up_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
           1,
           1,
           1,
@@ -306,12 +321,42 @@
           1,
           null,
           1,
+          2,
+          2,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/makersbnb/spec/user_spec.rb": {
+        "lines": [
           1,
           1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1625087978
+    "timestamp": 1625135615
   }
 }

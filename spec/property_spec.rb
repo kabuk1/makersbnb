@@ -27,7 +27,7 @@ describe Property do
   describe '.create' do
     it 'creates the property listing' do
       property = Property.create(name: 'Hillside', description: 'Chalet with a mountain view', location: 'Hull', price: 60, from_date: '2021-01-10', to_date: '2021-10-10')
-      persisted_data = persisted_data(id: property.id)
+      persisted_data = persisted_data(id: property.id, table: "property")
 
       expect(property).to be_a Property
       expect(property.id).to eq persisted_data.first['id']
