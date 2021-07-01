@@ -1,8 +1,20 @@
    <h1> 
    <%= flash[:notice] %>
   </h1>
-<form action='/sessions' method='post'>
-  <input type='email' name='email' placeholder='Enter your email'>
-  <input type='password' name='password' placeholder='Enter your password'>
-  <input type='submit' value='Login'>
-</form>
+<section class="login-form">
+  <div class="container">
+    <div class="row">
+      <form class="row g-3 mx-5" action='/sessions' method='post'>
+        <div class="col-md-12">
+          <input class="form-control" type='email' name='email' placeholder='Enter your email'>
+        </div>
+        <div class="col-md-12">
+          <input class="form-control" type='password' name='password' placeholder='Enter your password'>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
