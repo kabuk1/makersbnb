@@ -1,0 +1,53 @@
+
+<section class="page-banner-section py-5 img-bg " style="background-image: url('/img/common-bg.svg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="banner-content">
+          <h1 class="text-white display-3">Add your property</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="listing-form pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <form class="row g-3 mx-5" action="/properties" method="post">
+          <div class="col-12">
+            <label for="propertyName" class="form-label">Property name</label>
+            <input type="text" class="form-control" name="name" id="propertyName">
+          </div>
+          <div class="col-12">
+            <label for="propertyLocation" class="form-label">Location</label>
+            <input type="text" class="form-control" name="location" id="propertyLocation">
+          </div>
+          <div class="col-md-4">
+            <label for="fromDate" class="form-label">Available from</label>
+            <input type="date" name="from_date" id="fromDate" class="form-control">
+          </div>
+          <div class="col-md-4">
+            <label for="toDate" class="form-label">Available until</label>
+            <input type="date" name="to_date" id="toDate" class="form-control">
+          </div>
+          <div class="col-md-4">
+            <label for="propertyPrice" class="form-label">Price</label>
+            <input type="number" class="form-control" name="price" id="propertyPrice">
+          </div>
+          <div class="col-12">
+            <label for="propertyDescription" class="form-label">Description</label>
+            <textarea name="description" class="form-control" id="propertyDescription"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+
+
