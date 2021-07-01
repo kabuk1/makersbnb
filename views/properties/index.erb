@@ -1,12 +1,31 @@
-<ul>
-  <% @properties.each do |property| %>
-    <li><%= property.name %></li>
-    <ul>
-      <li>Description: <%= property.description %></li>
-      <li>Location: <%= property.location %></li>
-      <li>Cost: £<%= property.price %> per night</li>
-      <li>Available from: <%= property.from_date %></li>
-      <li>Available until: <%= property.to_date %></li>
-    </ul>
-  <% end %>
-</ul>
+<section class="page-banner-section py-5 img-bg " style="background-image: url('/img/common-bg.svg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="banner-content">
+          <h1 class="text-white display-3">Our properties</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="property-listings py-5">
+  <div class="container">
+    <div class="row">
+    <% @properties.each do |property| %>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+        <h5 class="card-header d-flex"><%= property.name %><span class="ms-auto">£<%= property.price %> / night</span></h5>
+        <div class="card-body">
+          <h5 class="card-title">Location: <%= property.location %></h5>
+          <p class="card-text"><%= property.description %></p>
+          <p class="card-text"><%= property.from_date %> - <%= property.to_date %></p>
+          <a href="#" class="btn btn-primary">Book</a>
+        </div>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+
