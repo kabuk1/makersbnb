@@ -1,18 +1,29 @@
 body, html {
   height: 100%;
-  padding-top: 40px;
-}
-
-h1, h2, h3, h4, h5, h6, .nav-font {
   Font-Family: 'Roboto Condensed', Sans-Serif;
 }
 
-a.nav-font {
+/* h1, h2, h3, h4, h5, h6, .nav-font {
+  Font-Family: 'Roboto Condensed', Sans-Serif;
+} */
+
+/* a.nav-font {
   font-size: 36px;
+} */
+
+/* p, .nav-link-font {
+  Font-Family: 'Cabin', Sans-Serif;
+} */
+.nav-mt {
+  margin-top: 80px;
 }
 
-p, .nav-link-font {
-  Font-Family: 'Cabin', Sans-Serif;
+.homepage-bg {
+  background-image: url("/img/homepage.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img-bg {
