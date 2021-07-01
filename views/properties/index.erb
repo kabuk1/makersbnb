@@ -20,11 +20,12 @@
           <h5 class="card-title">Location: <%= property.location %></h5>
           <p class="card-text"><%= property.description %></p>
           <p class="card-text"><%= property.from_date %> - <%= property.to_date %></p>
-          <a href="#" class="btn btn-primary">Book</a>
+          
+          <a href="/request" class="btn btn-primary">Book <%=property.name%> </a>
         </div>
         </div>
       </div>
-      <% end %>
+    <% end %>
     </div>
   </div>
 </section>

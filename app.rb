@@ -14,7 +14,7 @@ class MakersBnb < Sinatra::Base
 
   enable :sessions
 
-  attr_reader :user
+  attr_reader :user, :properties
 
   get "/" do
     erb :'users/new'
@@ -65,5 +65,19 @@ class MakersBnb < Sinatra::Base
     erb :"/users/new"
   end
 
+  post '/booking' do
+    redirect '/properties'
+  end
+
+  get '/request' do
+    erb :'booking-form'
+  end
+
+  post '/requests' do
+    session[:checkin] = params[:checkin]
+    session[:checkout] = params[:checkout]
+    session[:guests] = params[:guests]
+    redirect '/properties'
+  end
   run! if app_file == $0
 end
