@@ -1,7 +1,26 @@
+<section class='login-form text-center d-flex justify-content-center'>
+  <div class="col-md-3">
+    <img class='mb-4' src='/img/logo.png' width='200'>
+    <h1 class='h4 mb-3 font-weight-normal'>Sign up here!</h1>
+    <form action='/users' method='post'>
+      <label for='inputEmail' class='visually-hidden'>Email address</label>
+      <input type='email' name='email' id='inputEmail' class='form-control' placeholder='Email address'>
+      <label for='inputPassword' class='visually-hidden'>Password</label>
+      <input type='password' name='password' class='form-control' id='inputPassword' placeholder='Password'>
+      <div class="d-grid gap-2">
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+      </div>
+    </form>
+    <form action='/' method='post'>
+      <p class="mt-1">Not registered? <a href='/'>Create an account!</a></p>
+    </form>
+  </div>
+  <h2><%= flash[:notice] %></h2>
+</section>
    <h1> 
    <%= flash[:notice] %>
   </h1>
-<section class="login-form">
+<%# <section class="login-form">
   <div class="container">
     <div class="row">
       <form class="row g-3 mx-5" action='/sessions' method='post'>
@@ -17,4 +36,4 @@
       </form>
     </div>
   </div>
-</section>
+</section> %>

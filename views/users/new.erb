@@ -13,18 +13,12 @@
     </form>
     <form action='/login' method='post'>
       <p class="mt-1">Already registered? <a href='/login'>Login</a></p>
-      <%# <input type='submit' value='Login'> %>
     </form>
   </div>
+  <h2><%= flash[:notice] %></h2>
 </section>
 
 
 
 
-
-
-
-<h2>
-  <%= flash[:notice] %>
-</h2>
 

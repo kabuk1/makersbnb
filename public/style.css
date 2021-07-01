@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 h1, h2, h3, h4, h5, h6, .nav-font {
@@ -23,6 +23,8 @@ p, .nav-link-font {
   height: 100%;
 }
 
+/*** SIGN-UP FORM ***/
+
 .sign-up-form .form-control {
   position: relative;
   box-sizing: border-box;
@@ -44,6 +46,36 @@ p, .nav-link-font {
 }
 
 .sign-up-form .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/*** LOGIN FORM ***/
+
+.login-form input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.login-form input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.login-form .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-form .form-control {
   position: relative;
   box-sizing: border-box;
   height: auto;
