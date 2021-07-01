@@ -1,21 +1,20 @@
-require 'capybara'
-require 'capybara/rspec'
-require 'rspec'
-require 'simplecov'
-require 'simplecov-console'
-require 'features/web_helpers'
-require 'setup_test_database'
-
+require "capybara"
+require "capybara/rspec"
+require "rspec"
+require "simplecov"
+require "simplecov-console"
+require "features/web_helpers"
+require "setup_test_database"
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
 ])
 SimpleCov.start
 
-ENV['RACK_ENV'] = 'test'
-ENV['ENVIRONMENT'] = 'test'
+ENV["RACK_ENV"] = "test"
+ENV["ENVIRONMENT"] = "test"
 
-require File.join(File.dirname(__FILE__), '..', 'app.rb')
+require File.join(File.dirname(__FILE__), "..", "app.rb")
 
 Capybara.app = MakersBnb
 
@@ -36,5 +35,4 @@ RSpec.configure do |config|
   end
 
   config.shared_context_metadata_behavior = :apply_to_host_groups
-
 end

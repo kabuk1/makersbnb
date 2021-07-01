@@ -1,6 +1,6 @@
-require 'pg'
+require "pg"
 
-def persisted_data(id:)
-    connection = PG.connect(dbname: 'makersbnb_test')
-    connection.query("SELECT * FROM property WHERE id = '#{id}';")
+def persisted_data(id:, table:)
+  connection = PG.connect(dbname: "makersbnb_test")
+  connection.query("SELECT * FROM #{table} WHERE id = '#{id}';")
 end
