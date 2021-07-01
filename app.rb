@@ -69,7 +69,7 @@ class MakersBnb < Sinatra::Base
     redirect '/properties'
   end
 
-  get '/request' do
+  get '/store-sessions' do
     erb :'booking-form'
   end
 
