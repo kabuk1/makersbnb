@@ -2,7 +2,7 @@
   <div class="col-md-3 bg-light my-auto p-3 rounded">
     <img class='mb-4' src='/img/logo.png' width='200'>
     <h1 class='h4 mb-3 font-weight-normal'>Please sign in</h1>
-    <form action='/users' method='post'>
+    <form action='/sessions' method='post'>
       <label for='inputEmail' class='visually-hidden'>Email address</label>
       <input type='email' name='email' id='inputEmail' class='form-control' placeholder='Email address'>
       <label for='inputPassword' class='visually-hidden'>Password</label>
@@ -17,5 +17,3 @@
   </div>
   <h2><%= flash[:notice] %></h2>
 </section>
-
-
