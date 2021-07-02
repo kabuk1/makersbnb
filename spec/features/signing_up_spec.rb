@@ -6,6 +6,6 @@ feature 'registration' do
     click_button('Sign up')
 
     expect(page).to have_current_path '/users'
-    expect(page).to have_content "Welcome, test@example.com"
+    expect(page).to have_content "Welcome Maker!"
   end
 end

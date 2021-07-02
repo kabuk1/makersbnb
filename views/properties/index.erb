@@ -12,7 +12,7 @@
           <a class="nav-link" href="/properties/new">List property</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">My profile</a>
+          <a class="nav-link" href="/users">My profile</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/logout">Sign out</a>
@@ -21,12 +21,12 @@
     </div>
   </div>
 </nav>
-<section class="page-banner-section py-5 img-bg nav-mt" style="background-image: url('/img/common-bg.svg')">
+<section class="page-banner-section py-5 img-bg nav-mt" style="background-image: url('/img/beach-pexels.jpg')">
   <div class="container">
     <div class="row">
       <div class="col-xl-12">
         <div class="banner-content">
-          <h1 class="text-white display-3">Our properties</h1>
+          <h1 class="text-white py-5 display-3">Our properties</h1>
         </div>
       </div>
     </div>
@@ -38,12 +38,12 @@
     <% @properties.each do |property| %>
       <div class="col-md-4 mb-3">
         <div class="card">
-        <h5 class="card-header d-flex"><%= property.name %><span class="ms-auto">£<%= property.price %> / night</span></h5>
         <div class="card-body">
-          <h5 class="card-title">Location: <%= property.location %></h5>
+          <h2 class="h5 card-title d-flex"><%= property.name %><span class="ms-auto">£<%= property.price %> / night</span></h2>
+          <h3 class="h6 card-subtitle mb-2 text-muted"><%= property.location %></h3>
           <p class="card-text"><%= property.description %></p>
           <p class="card-text"><%= property.from_date %> - <%= property.to_date %></p>
-          <a href="#" class="btn btn-primary">Book</a>
+          <a href="#" class="btn btn-primary px-4">Request booking</a>
         </div>
         </div>
       </div>

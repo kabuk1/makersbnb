@@ -3,22 +3,11 @@ body, html {
   Font-Family: 'Roboto Condensed', Sans-Serif;
 }
 
-/* h1, h2, h3, h4, h5, h6, .nav-font {
-  Font-Family: 'Roboto Condensed', Sans-Serif;
-} */
-
-/* a.nav-font {
-  font-size: 36px;
-} */
-
-/* p, .nav-link-font {
-  Font-Family: 'Cabin', Sans-Serif;
-} */
 .nav-mt {
   margin-top: 80px;
 }
 
-.homepage-bg {
+.bg-img {
   background-image: url("/img/homepage.jpg");
   height: 100vh;
   background-position: center;
@@ -27,11 +16,15 @@ body, html {
 }
 
 .img-bg {
-  background-position: center center;
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+}
+
+.banner-content h1 {
+  text-shadow: 3px 3px 4px #0a0b0c;
 }
 
 /*** SIGN-UP FORM ***/

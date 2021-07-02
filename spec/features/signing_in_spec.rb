@@ -8,6 +8,6 @@ feature "authentication" do
     click_button("Login")
     
     expect(page).to have_current_path '/users'
-    expect(page).to have_content "Welcome, test@example.com"
+    expect(page).to have_content "Welcome Maker!"
   end
 end

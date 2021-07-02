@@ -34,6 +34,10 @@ class MakersBnb < Sinatra::Base
     redirect "/properties"
   end
 
+  get "/users" do
+    erb :confirm
+  end
+
   post "/users" do
     @user = User.create(email: params["email"], password: params["password"])
     session[:user_id] = @user.id
