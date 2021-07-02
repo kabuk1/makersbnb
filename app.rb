@@ -4,6 +4,7 @@ require "sinatra/flash"
 require "./lib/user"
 require "./lib/property"
 require_relative "database_connection_setup"
+require "./lib/user_existence"
 
 class MakersBnb < Sinatra::Base
   configure :development do
@@ -14,7 +15,7 @@ class MakersBnb < Sinatra::Base
 
   enable :sessions
 
-  attr_reader :user
+  attr_reader :user, :email
 
   get "/" do
     erb :'users/new'
@@ -34,20 +35,32 @@ class MakersBnb < Sinatra::Base
     redirect "/properties"
   end
 
-  post "/users" do
-    @user = User.create(email: params["email"], password: params["password"])
-    session[:user_id] = @user.id
+  get "/users" do
     erb :confirm
   end
 
+  post "/users" do
+      if params["email"].empty?
+        redirect "/"
+      else
+        @user = User.create(email: params["email"], password: params["password"])
+        session[:user_id] = @user.id
+        erb :confirm
+      end
+  end
+
   post "/sessions" do
-    @user = User.authenticate(email: params[:email], password: params[:password])
-    if @user
-      session[:user_id] = @user.id
-      erb :confirm
+    if params["email"].empty?
+      redirect "/login"
     else
-      flash[:notice] = "Please check your email or password."
-      redirect("/login")
+      @user = User.authenticate(email: params[:email], password: params[:password])
+      if @user
+        session[:user_id] = @user.id
+        erb :confirm
+      else
+        flash[:notice] = "Please check your email or password."
+        redirect("/login")
+      end
     end
   end
 
