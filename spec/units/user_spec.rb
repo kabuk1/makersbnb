@@ -1,6 +1,5 @@
-require "user"
-require_relative "database_helpers"
-require "setup_test_database"
+require 'user'
+require './spec/database_helpers'
 
 describe User do
   describe ".create" do
