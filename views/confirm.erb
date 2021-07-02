@@ -1,19 +1,65 @@
-<h1>
-  Welcome, <%= @user.email %>
-</h1>
- 
-  <form action='/booking' method='post'>
-  <input type='submit' value='book a space'>
-</form>
-
-  <form action='https://www.bbc.co.uk/' method='get'>
-  <input type='submit' value='add a space'>
-</form>
-
-<a href='https://www.bbc.co.uk/'> 
-<button> List of confirmed bookings for users </button> 
-</a>
-
-<a href='https://www.bbc.co.uk/'> 
-<button> List of added properties for user </button> 
-</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<div class="container">
+    <a class="navbar-brand nav-font" href="/">
+          <img src="/img/logo.png" width="200" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-md-0 nav-link-font">
+        <li class="nav-item">
+          <a class="nav-link" href="/properties">View properties</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/properties/new">List property</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/logout">Sign out</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="page-banner-section py-5 img-bg nav-mt" style="background-image: url('/img/common-bg.svg')">
+<div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="banner-content">
+          <h1 class="text-white display-3">Welcome Maker!</h1>
+          <%# Welcome, <%= @user.email %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class='pt-5 requests'>
+  <div class="container">
+    <div class="row mx-auto">
+      <div class="col-md-6">
+        <h2>Requests made</h2>
+        <div class="card" style="width: 75%;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Confirmed</a>
+            <a href="#" class="card-link">Cancel</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>Requests received</h2>
+        <div class="card" style="width: 75%;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Confirm</a>
+            <a href="#" class="card-link">Deny</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
