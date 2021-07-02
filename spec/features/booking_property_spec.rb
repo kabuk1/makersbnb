@@ -9,7 +9,7 @@ feature 'booking request' do
     visit('/')
     sign_up
     login
-    click_button('book a space')
+    click_link('View properties')
     
     expect(page).to have_content "Riverside"
     expect(page).to have_content "Cabin with a river view"
