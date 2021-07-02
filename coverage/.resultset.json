@@ -84,6 +84,11 @@
           0,
           0,
           null,
+          null,
+          null,
+          null,
+          null,
+          null,
           1,
           null
         ]
@@ -239,17 +244,15 @@
       },
       "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/features/booking_request_spec.rb": {
         "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           null,
           null,
-          null,
-          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -431,6 +434,6 @@
         ]
       }
     },
-    "timestamp": 1625172707
+    "timestamp": 1625215884
   }
 }

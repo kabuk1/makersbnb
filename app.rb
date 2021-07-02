@@ -79,5 +79,10 @@ class MakersBnb < Sinatra::Base
     session[:guests] = params[:guests]
     redirect '/properties'
   end
+
+  # get '/profile' do
+  #   erb :profile
+  # end
+
   run! if app_file == $0
 end
