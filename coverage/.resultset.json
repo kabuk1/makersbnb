@@ -1,7 +1,9 @@
 {
   "RSpec": {
     "coverage": {
+
       "/Users/yusufak/Documents/makersbnb/app.rb": {
+
         "lines": [
           1,
           1,
@@ -23,24 +25,31 @@
           1,
           null,
           1,
+
+          1,
+
+          null,
+          null,
+          1,
+          4,
+          4,
+          null,
+          null,
+          1,
           1,
           null,
           null,
           1,
-          3,
-          3,
-          null,
-          null,
           1,
           1,
           null,
           null,
           1,
-          1,
-          1,
-          null,
-          null,
-          1,
+
+          2,
+          2,
+          2,
+
           0,
           null,
           null,
@@ -51,43 +60,74 @@
           1,
           1,
           1,
+
           null,
           null,
           null,
           1,
+          1,
+
+          2,
+          2,
+          2,
+          2,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+
+          0,
+          null,
+
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+
+          1,
+
+
+          null,
+          null,
           1,
           0,
           null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          0,
-          null,
           null,
           1,
           0,
           0,
           0,
+          0,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           1,
           null
         ]
       },
+
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/lib/user.rb": {
+
       "/Users/yusufak/Documents/makersbnb/lib/user.rb": {
+
         "lines": [
           1,
           1,
@@ -96,23 +136,23 @@
           1,
           null,
           1,
-          6,
-          6,
+          9,
+          9,
           null,
           null,
           1,
-          2,
-          2,
-          2,
-          2,
+          3,
+          3,
+          3,
+          3,
           null,
           null,
           null,
           1,
-          4,
+          6,
           null,
-          4,
-          4,
+          6,
+          6,
           null,
           null,
           null,
@@ -129,7 +169,11 @@
           null
         ]
       },
+
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/lib/database_connection.rb": {
+
       "/Users/yusufak/Documents/makersbnb/lib/database_connection.rb": {
+
         "lines": [
           1,
           null,
@@ -143,12 +187,16 @@
           null,
           null,
           1,
-          6,
+          10,
           null,
           null
         ]
       },
+
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/lib/property.rb": {
+
       "/Users/yusufak/Documents/makersbnb/lib/property.rb": {
+
         "lines": [
           1,
           null,
@@ -157,40 +205,40 @@
           1,
           null,
           1,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
           null,
           null,
           1,
-          4,
-          4,
+          5,
+          5,
           null,
           0,
           null,
           null,
-          4,
-          4,
-          7,
+          5,
+          5,
+          8,
           null,
           null,
           null,
           null,
           null,
           1,
-          8,
-          8,
+          10,
+          10,
           null,
           0,
           null,
           null,
-          8,
+          10,
           null,
-          8,
+          10,
           null,
           null,
           null,
@@ -198,7 +246,10 @@
           null
         ]
       },
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/database_connection_setup.rb": {
+
       "/Users/yusufak/Documents/makersbnb/database_connection_setup.rb": {
+
         "lines": [
           1,
           null,
@@ -209,6 +260,9 @@
           null
         ]
       },
+
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/features/booking_property_spec.rb": {
+
       "/Users/yusufak/Documents/makersbnb/lib/user_existence.rb": {
         "lines": [
           null,
@@ -225,9 +279,27 @@
         ]
       },
       "/Users/yusufak/Documents/makersbnb/spec/features/booking_property_spec.rb": {
+
         "lines": [
+          1,
           null,
+          1,
+          1,
+          1,
           null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           null,
@@ -244,7 +316,26 @@
           null
         ]
       },
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/features/booking_request_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/features/create_property_spec.rb": {
+
       "/Users/yusufak/Documents/makersbnb/spec/features/create_property_spec.rb": {
+
         "lines": [
           1,
           1,
@@ -267,7 +358,11 @@
           null
         ]
       },
+
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/features/nav_spec.rb": {
+
       "/Users/yusufak/Documents/makersbnb/spec/features/nav_spec.rb": {
+
         "lines": [
           1,
           1,
@@ -280,7 +375,11 @@
           null
         ]
       },
+
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/features/signing_in_spec.rb": {
+
       "/Users/yusufak/Documents/makersbnb/spec/features/signing_in_spec.rb": {
+
         "lines": [
           1,
           1,
@@ -297,7 +396,11 @@
           null
         ]
       },
+
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/features/signing_up_spec.rb": {
+
       "/Users/yusufak/Documents/makersbnb/spec/features/signing_up_spec.rb": {
+
         "lines": [
           1,
           1,
@@ -312,7 +415,7 @@
           null
         ]
       },
-      "/Users/yusufak/Documents/makersbnb/spec/features/view_properties_spec.rb": {
+
         "lines": [
           1,
           null,
@@ -336,7 +439,72 @@
           null
         ]
       },
-      "/Users/yusufak/Documents/makersbnb/spec/property_spec.rb": {
+
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/lib/booking.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/database_helpers.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          3,
+          3,
+          null
+        ]
+      },
+      "/Users/usnahakimi/weekly_challenge/makersbnb/makersbnb/spec/units/property_spec.rb": {
         "lines": [
           1,
           1,
@@ -363,39 +531,31 @@
           1,
           null,
           null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
+
           null
         ]
       },
       "/Users/yusufak/Documents/makersbnb/spec/database_helpers.rb": {
         "lines": [
+
           1,
           null,
           1,
-          2,
-          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
           null
         ]
       },
-      "/Users/yusufak/Documents/makersbnb/spec/user_spec.rb": {
+
         "lines": [
-          1,
           1,
           1,
           null,
@@ -424,6 +584,6 @@
         ]
       }
     },
-    "timestamp": 1625233513
+
   }
 }

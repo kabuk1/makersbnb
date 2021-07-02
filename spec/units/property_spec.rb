@@ -1,5 +1,5 @@
 require 'property'
-require 'database_helpers'
+require './spec/database_helpers'
 
 describe Property do
   describe '.all' do

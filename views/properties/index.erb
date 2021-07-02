@@ -42,12 +42,12 @@
           <h2 class="h5 card-title d-flex"><%= property.name %><span class="ms-auto">£<%= property.price %> / night</span></h2>
           <h3 class="h6 card-subtitle mb-2 text-muted"><%= property.location %></h3>
           <p class="card-text"><%= property.description %></p>
-          <p class="card-text"><%= property.from_date %> - <%= property.to_date %></p>
-          <a href="#" class="btn btn-primary px-4">Request booking</a>
+          <p class="card-text"><%= property.from_date %> - <%= property.to_date %></p>         
+          <a href="/store-sessions" class="btn btn-primary"> Book <%=property.name%> </a>
         </div>
         </div>
       </div>
-      <% end %>
+    <% end %>
     </div>
   </div>
 </section>
