@@ -40,11 +40,8 @@ class MakersBnb < Sinatra::Base
   end
 
   post "/users" do
-    @email=params["email"]
-      if @email.empty?
+      if params["email"].empty?
         redirect "/"
-      elsif @email.exists?
-        redirect "/login"
       else
         @user = User.create(email: params["email"], password: params["password"])
         session[:user_id] = @user.id

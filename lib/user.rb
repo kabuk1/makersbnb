@@ -16,6 +16,7 @@ class User
     User.new(id: result[0]["id"], email: result[0]["email"])
   end
 
+
   def self.create(email:, password:)
     encrypted_password = BCrypt::Password.create(password)
 

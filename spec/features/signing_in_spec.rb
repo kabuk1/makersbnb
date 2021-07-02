@@ -7,7 +7,7 @@ feature "authentication" do
     fill_in("password", with: "password123")
     click_button("Login")
     
-    expect(page).to have_current_path '/users'
+    expect(page).to have_current_path '/sessions'
     expect(page).to have_content "Welcome Maker!"
   end
 end
