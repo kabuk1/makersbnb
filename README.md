@@ -27,76 +27,114 @@ $ rspec
 
 ## User stories
 
+### User stories completed
+
+```
 As a user,
 So that I can have a profile,
 I want to  be able to sign-up.
+```
 
+```
 As a user,
 So that I can update my profile,
 I want to be able to sign-in.
+```
 
+```
 As a host,
 So that I can rent my room or property,
 I would like to list a new space.
+```
 
+```
 As a host,
 So that my space can be identified,
 I want to be able to give it a name.
+```
 
+```
 As a host,
 So that my space is uniquely distinguishable/marketable,
 I want to be able to include a description of my space.
+```
 
+```
 As a host,
 So that I effectively advertise my space,
 I want to be able to add a price per night.
+```
 
+```
 As a host,
 So that I effectively advertise my space,
 I want to be able to add a location.
+```
 
+```
 As a host,
 So guests can book my space,
 I want to show a range of available dates.
+```
 
+```
 As a user,
 So that I can book any space,
 I want to be able to make a booking request.
+```
 
-## The following user stories are not complete:
+### User stories to be completed:
 
+```
 As a user,
 So that I can keep track of my booking requests,
 I want to be able to view the requests I have made.
+```
 
+```
 As a host,
 So that I can confirm a booking,
 I want to be able to approve a request.
+```
 
+```
 As a host,
 So that I can keep track of received requests,
 I want to be able to view all booking requests made.
+```
 
+```
 As a host, 
 So that I can maximise my income,
 I would like to be able to list multiple spaces.
+```
 
+```
 As a user,
 So that I can book an appropriate space, 
 I want to be able to search by location.
+```
 
+```
 As a user,
 So that I can focus on what spaces are available, 
 I want to be able to search by availability.
+```
 
+```
 As a host,
 So that I do not have double bookings,
 I want to block out dates as soon as a booking is confirmed.
+```
 
+```
 As a host,
 So my space is still shown to users,
 I want availability to remain open until booking is confirmed.
+```
 
+```
 As a host,
 So that once a booking is confirmed,
 I want to be able to automatically deny other requests.
+```
